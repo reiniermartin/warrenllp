@@ -15,7 +15,7 @@ function setRendererSize() {
 setRendererSize();
 
 renderer.setClearColor(0x000000, 0);
-renderer.domElement.className = "canvas-wkw";  
+renderer.domElement.className = "canvas-warren-llp";  
 document.body.appendChild(renderer.domElement);
 
 window.addEventListener('resize', setRendererSize, { passive: true });
