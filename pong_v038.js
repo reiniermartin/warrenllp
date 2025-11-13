@@ -83,7 +83,7 @@ var Ai = {
 };
 var Game = {
   initialize: function () {
-    this.canvas = document.getElementById('pongwkw');
+    this.canvas = document.getElementById('pongwarrenllp');
     this.context = this.canvas.getContext('2d');
     this.canvas.width = window.innerWidth;
     this.canvas.height = window.innerHeight;
@@ -420,7 +420,7 @@ function resizeCanvas() {
   windowWidth = window.innerWidth;
   windowHeight = window.innerHeight;
   Pong.ball = Ball.new(initialBallSpeed);
-  var canvas = document.getElementById('pongwkw');
+  var canvas = document.getElementById('pongwarrenllp');
   if (canvas) {
       canvas.width = windowWidth;
       canvas.height = windowHeight;
