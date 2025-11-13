@@ -26,10 +26,10 @@ var DIRECTION = {
   var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
   var gainNode = audioCtx.createGain();
 gainNode.connect(audioCtx.destination);
-soundHit.src = 'https://cdn.jsdelivr.net/gh/reiniermartin/wkw@main/sounds/hit.mp3';
-soundWall.src = 'https://cdn.jsdelivr.net/gh/reiniermartin/wkw@main/sounds/wall.mp3';
-soundScoreUser.src = 'https://cdn.jsdelivr.net/gh/reiniermartin/wkw@main/sounds/userScore.mp3';
-soundScoreComp.src = 'https://cdn.jsdelivr.net/gh/reiniermartin/wkw@main/sounds/comScore.mp3';
+soundHit.src = 'https://cdn.jsdelivr.net/gh/reiniermartin/warrenllp@main/sounds/hit.mp3';
+soundWall.src = 'https://cdn.jsdelivr.net/gh/reiniermartin/warrenllp@main/sounds/wall.mp3';
+soundScoreUser.src = 'https://cdn.jsdelivr.net/gh/reiniermartin/warrenllp@main/sounds/userScore.mp3';
+soundScoreComp.src = 'https://cdn.jsdelivr.net/gh/reiniermartin/warrenllp@main/sounds/comScore.mp3';
 function setPaddleSpeed() {
   if (windowWidth >= 2560) { return 10.2; } 
   else if (windowWidth < 2560 && windowWidth >= 1920) { return 9.2; }
