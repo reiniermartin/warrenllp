@@ -357,7 +357,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   // Long press detector for spacebar, mouse clicks, and touch
   class LongPressDetector {
-    constructor(holdTime = 9500) {
+    constructor(holdTime = 4500) {
       this.holdTime = holdTime;
       this.pressStart = 0;
       this.pressTimer = null;
